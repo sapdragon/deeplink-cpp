@@ -4,7 +4,7 @@
 
 void handleDeepLink(const std::string& url) {
     std::cout << "received deep link: " << url << std::endl;
-    MessageBoxA(NULL, url.c_str(), "deep    ink", MB_OK);
+    MessageBoxA(NULL, url.c_str(), "deepink", MB_OK);
 }
 
 std::vector<std::wstring> getCommandLineArgs() {
