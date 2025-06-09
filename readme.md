@@ -1,6 +1,7 @@
 # deeplink-cpp
 
-Header-only C++ library for registering and handling custom URL schemes on Windows.
+Header-only C++ library for registering and handling custom URL schemes
+( for now, only Windows is supported )
 
 ## Usage
 
@@ -77,5 +78,4 @@ Test with: `myapp://test-data` in browser or command line.
 
 ## Requirements
 
-- Windows 7+
 - C++20 compiler
